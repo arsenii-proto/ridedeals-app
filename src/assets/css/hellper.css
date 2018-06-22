@@ -35,6 +35,23 @@
 .p65 { padding: 65px; }
 .p70 { padding: 70px; }
 
+.p0i { padding: 0px !important; }
+.p1i { padding: 1px !important; }
+.p5i { padding: 5px !important; }
+.p10i { padding: 10px !important; }
+.p15i { padding: 15px !important; }
+.p20i { padding: 20px !important; }
+.p25i { padding: 25px !important; }
+.p30i { padding: 30px !important; }
+.p35i { padding: 35px !important; }
+.p40i { padding: 40px !important; }
+.p45i { padding: 45px !important; }
+.p50i { padding: 50px !important; }
+.p55i { padding: 55px !important; }
+.p60i { padding: 60px !important; }
+.p65i { padding: 65px !important; }
+.p70i { padding: 70px !important; }
+
 .pt0 { padding-top: 0px; }
 .pt1 { padding-top: 1px; }
 .pt5 { padding-top: 5px; }
@@ -51,6 +68,126 @@
 .pt60 { padding-top: 60px; }
 .pt65 { padding-top: 65px; }
 .pt70 { padding-top: 70px; }
+
+.pt0i { padding-top: 0px !important; }
+.pt1i { padding-top: 1px !important; }
+.pt5i { padding-top: 5px !important; }
+.pt10i { padding-top: 10px !important; }
+.pt15i { padding-top: 15px !important; }
+.pt20i { padding-top: 20px !important; }
+.pt25i { padding-top: 25px !important; }
+.pt30i { padding-top: 30px !important; }
+.pt35i { padding-top: 35px !important; }
+.pt40i { padding-top: 40px !important; }
+.pt45i { padding-top: 45px !important; }
+.pt50i { padding-top: 50px !important; }
+.pt55i { padding-top: 55px !important; }
+.pt60i { padding-top: 60px !important; }
+.pt65i { padding-top: 65px !important; }
+.pt70i { padding-top: 70px !important; }
+
+.pl0 { padding-left: 0px; }
+.pl1 { padding-left: 1px; }
+.pl5 { padding-left: 5px; }
+.pl10 { padding-left: 10px; }
+.pl15 { padding-left: 15px; }
+.pl20 { padding-left: 20px; }
+.pl25 { padding-left: 25px; }
+.pl30 { padding-left: 30px; }
+.pl35 { padding-left: 35px; }
+.pl40 { padding-left: 40px; }
+.pl45 { padding-left: 45px; }
+.pl50 { padding-left: 50px; }
+.pl55 { padding-left: 55px; }
+.pl60 { padding-left: 60px; }
+.pl65 { padding-left: 65px; }
+.pl70 { padding-left: 70px; }
+
+.pl0i { padding-left: 0px !important; }
+.pl1i { padding-left: 1px !important; }
+.pl5i { padding-left: 5px !important; }
+.pl10i { padding-left: 10px !important; }
+.pl15i { padding-left: 15px !important; }
+.pl20i { padding-left: 20px !important; }
+.pl25i { padding-left: 25px !important; }
+.pl30i { padding-left: 30px !important; }
+.pl35i { padding-left: 35px !important; }
+.pl40i { padding-left: 40px !important; }
+.pl45i { padding-left: 45px !important; }
+.pl50i { padding-left: 50px !important; }
+.pl55i { padding-left: 55px !important; }
+.pl60i { padding-left: 60px !important; }
+.pl65i { padding-left: 65px !important; }
+.pl70i { padding-left: 70px !important; }
+
+.pr0 { padding-right: 0px; }
+.pr1 { padding-right: 1px; }
+.pr5 { padding-right: 5px; }
+.pr10 { padding-right: 10px; }
+.pr15 { padding-right: 15px; }
+.pr20 { padding-right: 20px; }
+.pr25 { padding-right: 25px; }
+.pr30 { padding-right: 30px; }
+.pr35 { padding-right: 35px; }
+.pr40 { padding-right: 40px; }
+.pr45 { padding-right: 45px; }
+.pr50 { padding-right: 50px; }
+.pr55 { padding-right: 55px; }
+.pr60 { padding-right: 60px; }
+.pr65 { padding-right: 65px; }
+.pr70 { padding-right: 70px; }
+
+
+.pr0i { padding-right: 0px !important; }
+.pr1i { padding-right: 1px !important; }
+.pr5i { padding-right: 5px !important; }
+.pr10i { padding-right: 10px !important; }
+.pr15i { padding-right: 15px !important; }
+.pr20i { padding-right: 20px !important; }
+.pr25i { padding-right: 25px !important; }
+.pr30i { padding-right: 30px !important; }
+.pr35i { padding-right: 35px !important; }
+.pr40i { padding-right: 40px !important; }
+.pr45i { padding-right: 45px !important; }
+.pr50i { padding-right: 50px !important; }
+.pr55i { padding-right: 55px !important; }
+.pr60i { padding-right: 60px !important; }
+.pr65i { padding-right: 65px !important; }
+.pr70i { padding-right: 70px !important; }
+
+.pb0 { padding-bottom: 0px; }
+.pb1 { padding-bottom: 1px; }
+.pb5 { padding-bottom: 5px; }
+.pb10 { padding-bottom: 10px; }
+.pb15 { padding-bottom: 15px; }
+.pb20 { padding-bottom: 20px; }
+.pb25 { padding-bottom: 25px; }
+.pb30 { padding-bottom: 30px; }
+.pb35 { padding-bottom: 35px; }
+.pb40 { padding-bottom: 40px; }
+.pb45 { padding-bottom: 45px; }
+.pb50 { padding-bottom: 50px; }
+.pb55 { padding-bottom: 55px; }
+.pb60 { padding-bottom: 60px; }
+.pb65 { padding-bottom: 65px; }
+.pb70 { padding-bottom: 70px; }
+
+.pb0i { padding-bottom: 0px !important; }
+.pb1i { padding-bottom: 1px !important; }
+.pb5i { padding-bottom: 5px !important; }
+.pb10i { padding-bottom: 10px !important; }
+.pb15i { padding-bottom: 15px !important; }
+.pb20i { padding-bottom: 20px !important; }
+.pb25i { padding-bottom: 25px !important; }
+.pb30i { padding-bottom: 30px !important; }
+.pb35i { padding-bottom: 35px !important; }
+.pb40i { padding-bottom: 40px !important; }
+.pb45i { padding-bottom: 45px !important; }
+.pb50i { padding-bottom: 50px !important; }
+.pb55i { padding-bottom: 55px !important; }
+.pb60i { padding-bottom: 60px !important; }
+.pb65i { padding-bottom: 65px !important; }
+.pb70i { padding-bottom: 70px !important; }
 
 .m0 { margin: 0px; }
 .m1 { margin: 1px; }
@@ -111,6 +248,35 @@
 .fs32{ font-size: 32px; }
 .fs36{ font-size: 36px; }
 
+.fs8i{ font-size: 8px !important; }
+.fs10i{ font-size: 10px !important; }
+.fs12i{ font-size: 12px !important; }
+.fs14i{ font-size: 14px !important; }
+.fs15i{ font-size: 15px !important; }
+.fs16i{ font-size: 16px !important; }
+.fs18i{ font-size: 18px !important; }
+.fs20i{ font-size: 20px !important; }
+.fs22i{ font-size: 22px !important; }
+.fs24i{ font-size: 24px !important; }
+.fs25i{ font-size: 25px !important; }
+.fs26i{ font-size: 26px !important; }
+.fs28i{ font-size: 28px !important; }
+.fs30i{ font-size: 30px !important; }
+.fs32i{ font-size: 32px !important; }
+.fs36i{ font-size: 36px !important; }
+
+
+.pabs{ position: absolute; }
+.pabsi{ position: absolute !important; }
+
+.prel{ position: relative; }
+.preli{ position: relative !important; }
+
+.pfix{ position: fixed; }
+.pfixi{ position: fixed !important; }
+
+.hfull{ height: 100%; }
+.hfulli{ height: 100% !important; }
 
 /* Custom Themify */
 

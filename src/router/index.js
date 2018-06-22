@@ -4,12 +4,15 @@ import Router from 'vue-router'
 import Home from '@/views/Home.vue'
 import Login from '@/views/Login.vue'
 import Unauthorized from '@/views/Unauthorized.vue'
+import ClientDashboard from '@/views/ClientDashboard.vue'
+import DriverDashboard from '@/views/DriverDashboard.vue'
 
 import { CheckLogin } from "@/services/CheckLogin";
 
 Vue.use(Router)
 
 const router = new Router({
+  mode: 'history',
   routes: [
     {
       path: '*',
@@ -29,6 +32,16 @@ const router = new Router({
       path: '/unauthorized',
       name: 'unauthorized',
       component: Unauthorized
+    },
+    {
+      path: '/client-dashboard',
+      name: 'Client Dashboard',
+      component: ClientDashboard
+    },
+    {
+      path: '/driver-dashboard',
+      name: 'Driver Dashboard',
+      component: DriverDashboard
     },
   ]
 })

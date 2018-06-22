@@ -10,7 +10,7 @@ import { TransService } from "@/services/TransService";
 
 import '@/assets/css/hellper.css';
 import '@/assets/css/animate.css';
-import '@/assets/css/animate.css';
+import '@/assets/css/theme.css';
 
 Vue.config.productionTip = false
 

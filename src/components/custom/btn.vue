@@ -1,5 +1,5 @@
 <template>
-    <v-touch tag="button" class="btn" v-on="listenner">
+    <v-touch :tag="tag" class="btn" v-on="listenner">
         <slot></slot>
     </v-touch>
 </template>
@@ -7,6 +7,12 @@
 <script>
     export default {
         name: 'btn',
+        props: {
+            tag: {
+                type: String,
+                default: "button"
+            }
+        },
         data() {
 
             const self = this
@@ -33,6 +39,34 @@
         bottom: 0;
         background: #fff;
         opacity: 0.2;
+    }
+
+    .btn.circle{
+        width: 30px;
+        height: 30px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+    }
+
+    .btn.circle.lg{
+        width: 50px;
+        height: 50px;
+        padding: 8px 6px;
+        border-radius: 35px;
+        font-size: 20px;
+        line-height: 1.73;
+    }
+
+    .btn.circle.xl{
+        width: 70px;
+        height: 70px;
+        padding: 10px 16px;
+        border-radius: 35px;
+        font-size: 24px;
+        line-height: 1.33;
     }
 
     .btn.red {

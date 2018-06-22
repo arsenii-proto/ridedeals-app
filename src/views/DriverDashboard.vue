@@ -1,15 +1,12 @@
 <template>
   <div class="page full-fixed p30">
-    Unauthorized
+    DriverDashboard
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Unauthorized',
-  mounted() {
-    this.$stiller.firebase.auth.logout()
-  }
+  name: 'DriverDashboard',
 }
 </script>
 
