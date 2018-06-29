@@ -1,5 +1,5 @@
 <template>
-    <v-touch :tag="tag" class="btn" v-on="listenner">
+    <v-touch :tag="tag" class="btn" :class="el_class" v-on="listenner">
         <slot></slot>
     </v-touch>
 </template>
@@ -11,6 +11,10 @@
             tag: {
                 type: String,
                 default: "button"
+            },
+            'tap-class': {
+                type: String,
+                default: null
             }
         },
         data() {
@@ -19,9 +23,14 @@
 
             return {
 
+                el_class: {},
+
                 listenner: {
 
-                    tap() { self.$emit('tap') }
+                    tap() {
+
+                        self.$emit('tap')
+                    }
                 }
             }
         }

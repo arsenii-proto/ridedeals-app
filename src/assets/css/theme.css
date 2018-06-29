@@ -4,3 +4,11 @@
     color: #ffffff;
     font-family: 'Comfortaa', cursive;
 }
+
+.header-slot,
+.footer-slot {
+    
+    background-color: #171c22;
+    color: #ffffff;
+    font-family: 'Comfortaa', cursive;
+}

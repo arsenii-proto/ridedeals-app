@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Home from '@/views/Home.vue'
-import Login from '@/views/Login.vue'
+import HomePage from '@/views/HomePage.vue'
+import LoginPage from '@/views/LoginPage.vue'
 import Unauthorized from '@/views/Unauthorized.vue'
 import ClientDashboard from '@/views/ClientDashboard.vue'
 import DriverDashboard from '@/views/DriverDashboard.vue'
@@ -21,12 +21,12 @@ const router = new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: HomePage
     },
     {
       path: '/login',
       name: 'login',
-      component: Login
+      component: LoginPage
     },
     {
       path: '/unauthorized',

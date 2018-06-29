@@ -6,8 +6,11 @@
 
 <script>
 export default {
+  
   name: 'Unauthorized',
+
   mounted() {
+
     this.$stiller.firebase.auth.logout()
   }
 }
